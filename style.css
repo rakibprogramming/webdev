@@ -1,0 +1,191 @@
+body{
+    background-color: b1b1b1;
+}
+#logo{
+    text-align: center;
+}
+#logo img{
+    width: 200px;
+    margin: 0px;
+}
+#home{
+    background-color: 6a6a6a;
+    padding: 20px;
+    margin: 30px;
+
+}
+#home h1{
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgb(22, 22, 22);
+}
+#home .tag{
+    font-size: 110%;
+    color: b8b8b8;
+    position: relative;
+    top:-10px;
+
+}
+#home #items{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+}
+#home #items #text{
+    width: 40%;
+    font-size: 105%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#skils{
+    margin-left: auto;
+    width: 40%;
+    font-size: 70%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+@keyframes html {
+    from{width: 0%;}
+    to{width: 90%;}
+}
+#html{
+    width: 100%;
+    margin: 0px;
+    border: 2px solid rgb(85, 85, 85);
+    border-radius: 10px;
+}
+#html-level{
+    border-radius: 10px;
+    text-align: center;
+    animation-name: html;
+    animation-duration: 2s;
+    width: 90%;
+    background-image: linear-gradient(to right, rgb(252, 0, 0),rgb(4, 121, 255));
+}
+
+
+@keyframes css {
+    from{width: 0%;}
+    to{width: 85%;}
+}
+#css{
+    width: 100%;
+    margin: 0px;
+    border: 2px solid rgb(85, 85, 85);
+    border-radius: 10px;
+}
+#css-level{
+    border-radius: 10px;
+    text-align: center;
+    animation-name: css;
+    animation-duration: 2s;
+    width: 85%;
+    background-image: linear-gradient(to right, rgb(252, 0, 0),rgb(4, 121, 255));
+}
+
+@keyframes js {
+    from{width: 0%;}
+    to{width: 87%;}
+}
+#js{
+    width: 100%;
+    margin: 0px;
+    border: 2px solid rgb(85, 85, 85);
+    border-radius: 10px;
+}
+#js-level{
+    border-radius: 10px;
+    text-align: center;
+    animation-name: js;
+    animation-duration: 2s;
+    width: 87%;
+    background-image: linear-gradient(to right, rgb(252, 0, 0),rgb(4, 121, 255));
+}
+
+
+@keyframes php {
+    from{width: 0%;}
+    to{width: 86%;}
+}
+#php{
+    width: 100%;
+    margin: 0px;
+    border: 2px solid rgb(85, 85, 85);
+    border-radius: 10px;
+}
+#php-level{
+    border-radius: 10px;
+    text-align: center;
+    animation-name: php;
+    animation-duration: 2s;
+    width: 86%;
+    background-image: linear-gradient(to right, rgb(252, 0, 0),rgb(4, 121, 255));
+}
+
+#service{
+    padding: 20px;
+    background-color: white;
+    background-image: linear-gradient(to right,white,rgb(223, 223, 223));
+    margin: 30px;
+}
+#service h1{
+    font-size: 200%;
+}
+#service div{
+    margin-left: 20px;
+    font-size: 110%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#contact{
+    padding: 20px;
+    padding-bottom: 40px;
+    margin: 30px;
+    position: relative;
+    top: 50px;
+    background-color: 282828;
+}
+#tagname{
+    color: white;
+    text-shadow: 5px 1px 10px black;
+    font-size: 300%;
+    font-weight: bolder;
+   
+}
+#contact div{
+    margin-top: 10px;
+    margin-left: 20px;
+    overflow: auto;
+}
+#contact-ditels span {
+    color: white;
+    text-decoration: none;
+    font-size: 120%;
+    
+}
+#contact-ditels h2{
+    font-size: 200%;
+    color: white;
+}
+#contact-ditels span a{
+text-decoration: none;
+color: white;
+}
+#tagname{
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    #home #items{
+        display: inline;
+    }
+    #home #items #text{
+        width: 96%;
+    }
+    #skils{
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    #contact-ditels span {
+        font-size: 90%;
+    }
+}
